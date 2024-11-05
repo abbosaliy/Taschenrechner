@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.container {
+  display: flex;
+  gap: 0.5rem;
+  padding: 2rem;
+}
+aside {
+  width: 85%;
+
+  padding-right: 0.3rem;
+}
+#zwichenstand {
+  font-size: 1.5rem;
+  text-align: right;
+  height: 2rem;
+}
+
+#eingabe {
+  font-size: 2rem;
+  text-align: right;
+  height: 2rem;
+  
+}
+.grid-container {
+  padding: 1rem  0 0 0 ;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+.grid-number {
+  font-size: 2rem;
+  height: 5rem;
+  background-color: #fff;
+  border: 1px solid #BBB;
+  border-radius: 5px;
+}
+
+.grid-container button:hover {
+  background-color: antiquewhite;
+  color: #fff;
+}
+
+.nav-item {
+  width: 25%;
+  height: 80vh;
+  border-left: 1px solid #DDD;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.verlauf-text {
+  color: blue;
+}
