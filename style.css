@@ -63,3 +63,28 @@ aside {
 .verlauf-text {
   color: blue;
 }
+
+@media  screen and (max-width:600px) {
+
+  #zwischenstand{
+    font-size: 1.5rem;
+  }
+
+  #eingabe{
+    font-size: 1.5rem;
+  }
+ aside{
+
+  width: 65%;
+}
+  
+
+  .grid-number{
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+  .nav-item{
+    width: 35%;
+    font-size: 1rem;
+  }
+}
